@@ -1,0 +1,418 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &515447561459433799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4748995318230613397}
+  - component: {fileID: 6123128524323494804}
+  m_Layer: 0
+  m_Name: Animal_obstacle 2
+  m_TagString: Animal_obstacle
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4748995318230613397
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515447561459433799}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1746453797261111142}
+  - {fileID: 1019750773782697206}
+  - {fileID: 8614888633755823100}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6123128524323494804
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515447561459433799}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &1098896874354767184
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4748995318230613397}
+    m_Modifications:
+    - target: {fileID: 8704942902845054636, guid: 4a8f768bda0fb44e390582719c0c62ed,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8704942902845054636, guid: 4a8f768bda0fb44e390582719c0c62ed,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8704942902845054636, guid: 4a8f768bda0fb44e390582719c0c62ed,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8704942902845054636, guid: 4a8f768bda0fb44e390582719c0c62ed,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8704942902845054636, guid: 4a8f768bda0fb44e390582719c0c62ed,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8704942902845054636, guid: 4a8f768bda0fb44e390582719c0c62ed,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8704942902845054636, guid: 4a8f768bda0fb44e390582719c0c62ed,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8704942902845054636, guid: 4a8f768bda0fb44e390582719c0c62ed,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8704942902845054636, guid: 4a8f768bda0fb44e390582719c0c62ed,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8704942902845054636, guid: 4a8f768bda0fb44e390582719c0c62ed,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8704942902845054636, guid: 4a8f768bda0fb44e390582719c0c62ed,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8704942902845054639, guid: 4a8f768bda0fb44e390582719c0c62ed,
+        type: 3}
+      propertyPath: m_Name
+      value: Lamb
+      objectReference: {fileID: 0}
+    - target: {fileID: 8704942902845054639, guid: 4a8f768bda0fb44e390582719c0c62ed,
+        type: 3}
+      propertyPath: m_TagString
+      value: Lamb
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4a8f768bda0fb44e390582719c0c62ed, type: 3}
+--- !u!4 &8614888633755823100 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8704942902845054636, guid: 4a8f768bda0fb44e390582719c0c62ed,
+    type: 3}
+  m_PrefabInstance: {fileID: 1098896874354767184}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8614888633755823103 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8704942902845054639, guid: 4a8f768bda0fb44e390582719c0c62ed,
+    type: 3}
+  m_PrefabInstance: {fileID: 1098896874354767184}
+  m_PrefabAsset: {fileID: 0}
+--- !u!111 &6159997939069475360
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8614888633755823103}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: eba1fc269f3e7dd43b1abb6098caeaa0, type: 2}
+  - {fileID: 7400000, guid: 63de1b7bf749e444eb4376f765f3cc6d, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &1855211880380649281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8614888633755823103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12293a344d7314242b38cbef9e669034, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalNameList:
+  - Alpaca
+  - Bull
+  - Goat
+  - Goose
+  - Horse
+  - Lamb
+  - Llama
+  - Mallard
+  - Turkey
+  animal_name: 
+  tag_check: 
+  tag_number: 0
+  speed_increase: 0.2
+  gameIsOver: 0
+--- !u!1001 &7002559613752700114
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4748995318230613397}
+    m_Modifications:
+    - target: {fileID: 5435760702113555633, guid: 84176b43c0bf747719f438e5668b2b5a,
+        type: 3}
+      propertyPath: m_Name
+      value: Alpaca
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000916536951224356, guid: 84176b43c0bf747719f438e5668b2b5a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000916536951224356, guid: 84176b43c0bf747719f438e5668b2b5a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000916536951224356, guid: 84176b43c0bf747719f438e5668b2b5a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000916536951224356, guid: 84176b43c0bf747719f438e5668b2b5a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000916536951224356, guid: 84176b43c0bf747719f438e5668b2b5a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000916536951224356, guid: 84176b43c0bf747719f438e5668b2b5a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000916536951224356, guid: 84176b43c0bf747719f438e5668b2b5a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000916536951224356, guid: 84176b43c0bf747719f438e5668b2b5a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000916536951224356, guid: 84176b43c0bf747719f438e5668b2b5a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000916536951224356, guid: 84176b43c0bf747719f438e5668b2b5a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000916536951224356, guid: 84176b43c0bf747719f438e5668b2b5a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 84176b43c0bf747719f438e5668b2b5a, type: 3}
+--- !u!4 &1019750773782697206 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8000916536951224356, guid: 84176b43c0bf747719f438e5668b2b5a,
+    type: 3}
+  m_PrefabInstance: {fileID: 7002559613752700114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3044896590888716387 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5435760702113555633, guid: 84176b43c0bf747719f438e5668b2b5a,
+    type: 3}
+  m_PrefabInstance: {fileID: 7002559613752700114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8090435274540804782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3044896590888716387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12293a344d7314242b38cbef9e669034, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalNameList:
+  - Alpaca
+  - Bull
+  - Goat
+  - Goose
+  - Horse
+  - Lamb
+  - Llama
+  - Mallard
+  - Turkey
+  animal_name: 
+  tag_check: 
+  tag_number: 0
+  speed_increase: 0.2
+  gameIsOver: 0
+--- !u!1001 &7145898904850721480
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4748995318230613397}
+    m_Modifications:
+    - target: {fileID: 8869825482667558305, guid: 27f0ee3ea88274333ad7929332f0c7ee,
+        type: 3}
+      propertyPath: m_Name
+      value: Goose
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869825482667558305, guid: 27f0ee3ea88274333ad7929332f0c7ee,
+        type: 3}
+      propertyPath: m_TagString
+      value: Goose
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869825482667558318, guid: 27f0ee3ea88274333ad7929332f0c7ee,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869825482667558318, guid: 27f0ee3ea88274333ad7929332f0c7ee,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869825482667558318, guid: 27f0ee3ea88274333ad7929332f0c7ee,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869825482667558318, guid: 27f0ee3ea88274333ad7929332f0c7ee,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869825482667558318, guid: 27f0ee3ea88274333ad7929332f0c7ee,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869825482667558318, guid: 27f0ee3ea88274333ad7929332f0c7ee,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869825482667558318, guid: 27f0ee3ea88274333ad7929332f0c7ee,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869825482667558318, guid: 27f0ee3ea88274333ad7929332f0c7ee,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869825482667558318, guid: 27f0ee3ea88274333ad7929332f0c7ee,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869825482667558318, guid: 27f0ee3ea88274333ad7929332f0c7ee,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869825482667558318, guid: 27f0ee3ea88274333ad7929332f0c7ee,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 27f0ee3ea88274333ad7929332f0c7ee, type: 3}
+--- !u!4 &1746453797261111142 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8869825482667558318, guid: 27f0ee3ea88274333ad7929332f0c7ee,
+    type: 3}
+  m_PrefabInstance: {fileID: 7145898904850721480}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1746453797261111145 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8869825482667558305, guid: 27f0ee3ea88274333ad7929332f0c7ee,
+    type: 3}
+  m_PrefabInstance: {fileID: 7145898904850721480}
+  m_PrefabAsset: {fileID: 0}
+--- !u!111 &4019380450870615702
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746453797261111145}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: eba1fc269f3e7dd43b1abb6098caeaa0, type: 2}
+  - {fileID: 7400000, guid: 63de1b7bf749e444eb4376f765f3cc6d, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &2024799249084233638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746453797261111145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12293a344d7314242b38cbef9e669034, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalNameList:
+  - Alpaca
+  - Bull
+  - Goat
+  - Goose
+  - Horse
+  - Lamb
+  - Llama
+  - Mallard
+  - Turkey
+  animal_name: 
+  tag_check: 
+  tag_number: 0
+  speed_increase: 0.2
+  gameIsOver: 0

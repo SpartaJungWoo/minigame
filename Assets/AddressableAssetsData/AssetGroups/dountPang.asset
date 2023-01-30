@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: dountPang
+  m_EditorClassIdentifier: 
+  m_GroupName: dountPang
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 914986991d8d046e3bd5617d5ad655a9
+  m_SerializeEntries:
+  - m_GUID: c91dcdf3bf488444b90babb1f20292cb
+    m_Address: donutpang
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - donutpang
+  - m_GUID: e9c1d72a028594c67a88b100215806d7
+    m_Address: donutpangscene
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - donutpang
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 0e256180338f04ffa9c588867eb62eb3, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 1457edfc56780418888705a05c77b356, type: 2}
+    - {fileID: 11400000, guid: 493a11b38e8944c0f9841c5f5b4af598, type: 2}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1040041603170",
+    "project_id": "star-bridges",
+    "storage_bucket": "star-bridges.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040041603170:android:814ec39ae0d3a3868c213b",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.StarBridges"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040041603170-sr8tonea605810l9ifohaq92ek3c3cli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1y2K3TbiYgkgz4qcOa-gzsDYVOMaOZkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040041603170-sr8tonea605810l9ifohaq92ek3c3cli.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

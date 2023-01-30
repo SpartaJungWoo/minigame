@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 701f2fb9ff0814a4fa81e75eeae172bc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - GoldCoin: {instanceID: 0}
+  - SilverCoin: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

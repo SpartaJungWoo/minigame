@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: boosterup
+  m_EditorClassIdentifier: 
+  m_GroupName: boosterup
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 7381efa84733e4fd3b4afbeb942717be
+  m_SerializeEntries:
+  - m_GUID: 866ecbf4815eb482ab6fc0c0422e2b53
+    m_Address: boosterupscene
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - boosterup
+  - m_GUID: ac84f401f51b74e16aa1f7d667745040
+    m_Address: boosterup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - boosterup
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 0e256180338f04ffa9c588867eb62eb3, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c90b06156d5b64bb7a5f64d589f2fdea, type: 2}
+    - {fileID: 11400000, guid: da8150ff2ef8749f0bef8e7f7831d4db, type: 2}

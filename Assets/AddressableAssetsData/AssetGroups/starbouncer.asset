@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: starbouncer
+  m_EditorClassIdentifier: 
+  m_GroupName: starbouncer
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 406264df0d8b5449ab74985bde660808
+  m_SerializeEntries:
+  - m_GUID: 707247598b12c46d5b8693cf2ab9e41a
+    m_Address: starbouncer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - starbouncer
+  - m_GUID: da5cc8c3efd134a9bb1900698c835032
+    m_Address: starbouncerscene
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - starbouncer
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 0e256180338f04ffa9c588867eb62eb3, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 474725cc4b4fb44c79a2770759fd8355, type: 2}
+    - {fileID: 11400000, guid: b6f8bfb23fa7546a8b1e8a900cfd3f25, type: 2}
